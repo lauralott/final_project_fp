@@ -3,11 +3,11 @@ import mall.Cost
 
 case class VendingMachine(name: String, packsStocks:Seq[PackStock], profit: Cost=0 ) {
 
-  def buy(i:String): VendingMachine = {
+  def buy(i:String): (VendingMachine, Pack )= {
     val packStock : PackStock = getPackStock(i).getOrElse(throw new Exception("not found"))
     val newPackStock = packStock.buy()
-    this.copy(packsStocks = packsStocks.patch(packsStocks.indexOf(packStock), Seq(newPackStock), 1),
-      profit = profit + packStock.pack.price)
+    (this.copy(packsStocks = packsStocks.patch(packsStocks.indexOf(packStock), Seq(newPackStock), 1),
+      profit = profit + packStock.pack.price), packStock.pack)
   }
 
   private def getPackStock(name: String) : Option[PackStock] = this.packsStocks.find(p => p.pack.name == name)

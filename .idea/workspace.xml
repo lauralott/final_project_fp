@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c033654-b58a-4527-97c0-37c5080c07ce" name="Default Changelist" comment="" />
+    <list default="true" id="4c033654-b58a-4527-97c0-37c5080c07ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mall/Principal.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mall/Principal.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/Principal$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/mall/Principal$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigarettes$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigarettes$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigarettes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigarettes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigars$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigars$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigars.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigars.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/VendingMachine$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/VendingMachine$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/VendingMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/VendingMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/VendingMachineChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/VendingMachineChain.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -34,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="3" column="47" lean-forward="true" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -44,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachineChain.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#21#37#0" expanded="true" />
               </folding>
@@ -55,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/PackStock.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="34">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -65,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/Pack.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="81" lean-forward="true" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+              <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -87,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mall/Principal.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="132">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -102,6 +115,9 @@
         <option value="Scala Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -121,9 +137,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/mall/cigars/Packs.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mall/utils/SequenceUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mall/cigars/Pack.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachineChain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mall/cigars/PackStock.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mall/Principal.scala" />
       </list>
     </option>
@@ -133,24 +149,20 @@
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Parte1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Parte1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Parte1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Parte1" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Parte1" type="b2602c69:ProjectViewProjectNode" />
@@ -209,6 +221,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -307,18 +320,19 @@
       <option name="presentableId" value="Default" />
       <updated>1562007106538</updated>
       <workItem from="1562007113732" duration="14247000" />
-      <workItem from="1562087971292" duration="13724000" />
+      <workItem from="1562087971292" duration="14496000" />
+      <workItem from="1562107118472" duration="1101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27971000" />
+    <option name="totallyTimeSpent" value="29844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19818456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -327,14 +341,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14795919" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2414966" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15306123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.20034543" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38265306" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3265306" />
@@ -389,89 +403,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/mall/Principal.scala</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Principal.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/PriceProvider.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/products/VendingMachine.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#23#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testConcepts.sc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/PackStock.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/Pack.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="81" lean-forward="true" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachineChain.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#21#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Principal.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/PriceProvider.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/products/VendingMachine.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/mall/utils/SequenceUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testConcepts.sc">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/mall/package.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -480,10 +427,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachineChain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#21#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/PackStock.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/Pack.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="47" lean-forward="true" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/mall/Principal.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="132">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -11,11 +11,15 @@ object Principal {
     val stock = Seq(PackStock(Cigars(), 30), PackStock(Cigarettes(),100))
 
     val vm1 = VendingMachine("vm1",stock)
-    val vm2 = vm1.copy(name = "vm2").buy(packCigarettes).buy(packCigarettes)
-    val vm3 = vm1.copy(name = "vm3").buy(packCigars).buy(packCigarettes)
-    val vm4 = vm1.copy(name = "vm4").buy(packCigars)
+    val (vm2, prod) = vm1.copy(name = "vm2").buy(packCigarettes)
+    val (vm21, prod2) = vm2.buy(packCigarettes)
+    val (vm3, prod3) = vm1.copy(name = "vm3").buy(packCigars)
+    val (vm31, prod4) = vm3.buy(packCigarettes)
+    val (vm4, prod5) = vm1.copy(name = "vm4").buy(packCigars)
 
-    val vmChain = VendingMachineChain( Seq(vm1,vm2,vm3,vm4))
+    val vmChain = VendingMachineChain( Seq(vm1,vm21,vm31,vm4))
+
+    println(s"bought packs: \n $prod \n $prod2 \n $prod3 \n $prod4 \n $prod5")
 
     closeDay(vmChain)
 
