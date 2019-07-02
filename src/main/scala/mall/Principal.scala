@@ -8,7 +8,7 @@ object Principal {
 
     val packCigarettes = "Cigarettes"
     val packCigars = "Cigars"
-    val stock = Seq(PackStock(Cigars(), 30), PackStock(Cigarettes(),100))
+    val stock = Seq(PackStock(Cigars(), 30, 30), PackStock(Cigarettes(),100, 100))
 
     val vm1 = VendingMachine("vm1",stock)
     val (vm2, prod) = vm1.copy(name = "vm2").buy(packCigarettes)
