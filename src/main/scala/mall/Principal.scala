@@ -29,11 +29,11 @@ object Principal {
     closeDay(mall_1)
     closeDay(mall_2)
 
-    val mapper = CityMapper().add(Barcelona(),Seq(mall_1, mall_2)).add(Mallorca(),Seq(mall_3))
+    val mapper = CityMapper().add(Barcelona,Seq(mall_1, mall_2)).add(Mallorca,Seq(mall_3))
 
     println(s"find vending machine by UUID from City panel: ${mapper.getMachine(uuid)}")
-    println(s"\nProfit from Barcelona:   ${mapper.getTotalProfit(Barcelona())}€")
-    println(s"\nProfit from Mallorca:   ${mapper.getTotalProfit(Mallorca())}€")
+    println(s"\nProfit from Barcelona:   ${mapper.getTotalProfit(Barcelona)}€")
+    println(s"\nProfit from Mallorca:   ${mapper.getTotalProfit(Mallorca)}€")
   }
 
   def closeDay(chain: VendingMachineChain): Unit ={

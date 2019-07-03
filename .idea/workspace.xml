@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c033654-b58a-4527-97c0-37c5080c07ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/mall/cigars/City/City.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/mall/cigars/City/CityMapper.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine/VendingMachine.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine/VendingMachineChain.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/mall/Principal.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mall/Principal.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mall/cigars/Pack.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mall/cigars/Pack/Pack.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mall/cigars/PackStock.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mall/cigars/Pack/PackStock.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachineChain.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/META-INF/Parte1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/Principal$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/mall/Principal$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/mall/Principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigarettes$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigarettes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigars$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Cigars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/Pack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/PackStock$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/PackStock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/VendingMachine$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/VendingMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/VendingMachineChain$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/mall/cigars/VendingMachineChain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mall/cigars/City/City.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mall/cigars/City/City.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mall/Principal.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="165">
+              <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
               <folding>
                 <element signature="e#14#46#0" expanded="true" />
               </folding>
@@ -89,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/City/CityMapper.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+            <state relative-caret-position="171">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="e#26#42#0" expanded="true" />
               </folding>
@@ -119,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine/VendingMachineChain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="136">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -128,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/City/City.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -143,6 +121,14 @@
         <option value="Scala Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Mallorca()</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Mallorca</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -178,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/mall/cigars/Pack/PackStock.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine/VendingMachineChain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mall/cigars/City/CityMapper.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mall/cigars/City/City.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mall/Principal.scala" />
       </list>
     </option>
@@ -245,13 +232,7 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="mall" type="462c0819:PsiDirectoryNode" />
               <item name="cigars" type="462c0819:PsiDirectoryNode" />
-              <item name="Pack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Parte1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Parte1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="City" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,13 +348,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45839000" />
+    <option name="totallyTimeSpent" value="45898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -382,7 +363,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7677761" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7677761" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.15306123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,7 +372,7 @@
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.36734694" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.2322239" side_tool="true" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.36734694" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.37585035" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -454,16 +435,7 @@
     <entry file="file://$PROJECT_DIR$/testConcepts.sc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/MachineCollection.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#21#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/MachineCollection.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/mall/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -478,54 +450,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/PackStock.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachineChain.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" column="87" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
-          <folding>
-            <element signature="e#21#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachineCity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-end-line="20" />
-          <folding>
-            <element signature="e#20#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/CityMapper.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/City/City.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/PackStock.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachineChain.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachineCity.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/CityMapper.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine/VendingMachine.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -535,8 +464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/VendingMachine/VendingMachineChain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="136">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -556,18 +485,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/City/CityMapper.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+        <state relative-caret-position="171">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="e#26#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mall/cigars/City/City.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/mall/Principal.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="165">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding>
             <element signature="e#14#46#0" expanded="true" />
           </folding>
