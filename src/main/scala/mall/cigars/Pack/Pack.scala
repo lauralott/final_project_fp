@@ -1,4 +1,5 @@
-package mall.cigars
+package mall.cigars.Pack
+
 import mall.Cost
 
 sealed trait Pack{ def name: String; def price : Cost}

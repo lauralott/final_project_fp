@@ -1,7 +1,9 @@
-package mall.cigars
-import mall.Cost
+package mall.cigars.VendingMachine
 
-case class VendingMachine(name: String, packsStocks:Seq[PackStock], profit: Cost=0 ) {
+import mall.Cost
+import mall.cigars.Pack.{Pack, PackStock}
+
+case class VendingMachine(name: String, id : String, packsStocks:Seq[PackStock], profit: Cost=0 ) {
 
   def buy(i:String): (VendingMachine, Pack )= {
     val packStock : PackStock = getPackStock(i).getOrElse(throw new Exception("not found"))

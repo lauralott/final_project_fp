@@ -1,9 +1,9 @@
-package mall.cigars
+package mall.cigars.VendingMachine
 
 import mall.Cost
 import mall.utils.SequenceUtils
 
-case class VendingMachineChain(vendingMachines: Seq[VendingMachine]) {
+case class VendingMachineChain(name : String, vendingMachines: Seq[VendingMachine]) {
 
   def add(i:VendingMachine):VendingMachineChain = {
     this.copy(vendingMachines=this.vendingMachines :+ i)
@@ -18,5 +18,5 @@ case class VendingMachineChain(vendingMachines: Seq[VendingMachine]) {
     vendingMachines.map(_.profit).sum
   }
 
-
+  def getMachine(id: String): Option[VendingMachine] = vendingMachines.find(_.id == id)
 }

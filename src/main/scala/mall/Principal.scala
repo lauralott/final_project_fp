@@ -1,36 +1,48 @@
 package mall
+import java.util.UUID.randomUUID
 
-import mall.cigars.{Cigarettes, Cigars, PackStock, VendingMachine, VendingMachineChain}
+import mall.cigars.City.{Barcelona, CityMapper, Mallorca}
+import mall.cigars.Pack.{Cigarettes, Cigars, PackStock}
+import mall.cigars.VendingMachine.{VendingMachine, VendingMachineChain}
 
 object Principal {
 
   def main (args: Array[String]):Unit= {
-
     val packCigarettes = "Cigarettes"
     val packCigars = "Cigars"
     val stock = Seq(PackStock(Cigars(), 30, 30), PackStock(Cigarettes(),100, 100))
+    val uuid = randomUUID().toString
+    val vm1 = VendingMachine("vm1", uuid, stock)
+    val (vm2, prod) = vm1.copy(name = "vm2", id = randomUUID().toString).buy(packCigarettes)._1.buy(packCigarettes)
+    val (vm3, prod3) = vm1.copy(name = "vm3", id = randomUUID().toString).buy(packCigars)._1.buy(packCigarettes)
+    val (vm4, prod5) = vm1.copy(name = "vm4", id = randomUUID().toString).buy(packCigars)
+    val (vm5, prod4) = vm1.copy(name="vm5", id = randomUUID().toString).buy(packCigarettes)._1.buy(packCigars)
+    val (vm6, prod6) = vm1.copy(name="vm6", id = randomUUID().toString).buy(packCigarettes)
+    val (vm7, prod7) = vm1.copy(name="vm7", id = randomUUID().toString).buy(packCigarettes)._1.buy(packCigars)._1.buy(packCigars)
 
-    val vm1 = VendingMachine("vm1",stock)
-    val (vm2, prod) = vm1.copy(name = "vm2").buy(packCigarettes)
-    val (vm21, prod2) = vm2.buy(packCigarettes)
-    val (vm3, prod3) = vm1.copy(name = "vm3").buy(packCigars)
-    val (vm31, prod4) = vm3.buy(packCigarettes)
-    val (vm4, prod5) = vm1.copy(name = "vm4").buy(packCigars)
+    val mall_1 = VendingMachineChain("super mall", Seq(vm1,vm6,vm4))
+    val mall_2 = VendingMachineChain("mega mall", Seq(vm5,vm2,vm3))
+    val mall_3 = VendingMachineChain("hyper mall", Seq(vm7))
 
-    val vmChain = VendingMachineChain( Seq(vm1,vm21,vm31,vm4))
+    println(s"some of the bought packs: \n $prod \n $prod3 \n $prod4 \n $prod7 \n $prod5 \n $prod6")
 
-    println(s"bought packs: \n $prod \n $prod2 \n $prod3 \n $prod4 \n $prod5")
+    closeDay(mall_1)
+    closeDay(mall_2)
 
-    closeDay(vmChain)
+    val mapper = CityMapper().add(Barcelona(),Seq(mall_1, mall_2)).add(Mallorca(),Seq(mall_3))
 
+    println(s"find vending machine by UUID from City panel: ${mapper.getMachine(uuid)}")
+    println(s"\nProfit from Barcelona:   ${mapper.getTotalProfit(Barcelona())}€")
+    println(s"\nProfit from Mallorca:   ${mapper.getTotalProfit(Mallorca())}€")
   }
 
   def closeDay(chain: VendingMachineChain): Unit ={
-    println("Results of Day 1")
-    chain.vendingMachines.foreach(m => println(s"${m.name}  ---  profit: ${m.profit} --- remaining packs: ${m.packsStocks}  \n"))
-    println( s"Total profits: ${chain.getTotalProfit()}\n" )
+    println(s"Results of Day 1 for machine ${chain.name}")
+    chain.vendingMachines.foreach(m => println(s"${m.name}  ---  profit: ${m.profit}€ --- remaining packs: ${m.packsStocks}  \n"))
+    println( s"Total profits: ${chain.getTotalProfit()}€\n" )
     println("Fill up machines for Day 2")
     chain.vendingMachines.foreach(m => println(m.fillUp().retrieveProfit()))
+    println("\n")
   }
 
 

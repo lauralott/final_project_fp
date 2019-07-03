@@ -1,4 +1,4 @@
-package mall.cigars
+package mall.cigars.Pack
 
 case class PackStock(pack: Pack, count:Int, maxCount : Int){
   def buy(): PackStock = count match {
@@ -8,4 +8,3 @@ case class PackStock(pack: Pack, count:Int, maxCount : Int){
 
   def refill() : PackStock = this.copy(count = maxCount)
 }
-
