@@ -11,13 +11,14 @@ object Principal {
     val packCigarettes = "Cigarettes"
     val packCigars = "Cigars"
     val stock = Seq(PackStock(CigarsPack(), 30, 30), PackStock(CigarettesPack(),100, 100))
+    val lowStock = Seq(PackStock(CigarsPack(), 10, 30), PackStock(CigarettesPack(),5, 100))
     val uuid = randomUUID().toString
     val vm1 = VendingMachine("vm1", uuid, stock)
     val (vm2, prod) = vm1.copy(name = "vm2", id = randomUUID().toString).buy(packCigarettes)._1.buy(packCigarettes)
     val (vm3, prod3) = vm1.copy(name = "vm3", id = randomUUID().toString).buy(packCigars)._1.buy(packCigarettes)
     val (vm4, prod5) = vm1.copy(name = "vm4", id = randomUUID().toString).buy(packCigars)
     val (vm5, prod4) = vm1.copy(name="vm5", id = randomUUID().toString).buy(packCigarettes)._1.buy(packCigars)
-    val (vm6, prod6) = vm1.copy(name="vm6", id = randomUUID().toString).buy(packCigarettes)
+    val (vm6, prod6) = vm1.copy(name="vm6", id = randomUUID().toString, lowStock).buy(packCigarettes)
     val (vm7, prod7) = vm1.copy(name="vm7", id = randomUUID().toString).buy(packCigarettes)._1.buy(packCigars)._1.buy(packCigars)
 
     val mall_1 = VendingMachineChain("Glories", Seq(vm1,vm6,vm4), jitActivated = true)

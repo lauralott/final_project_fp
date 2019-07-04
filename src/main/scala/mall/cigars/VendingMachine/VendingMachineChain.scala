@@ -24,7 +24,7 @@ case class VendingMachineChain(name : String, vendingMachines: Seq[VendingMachin
 
   def checkStockAndRequestIfNeeded(): Boolean ={
     if (jitActivated){
-      vendingMachines.foreach(vm => vm.needRefill(CigarettesPack()) -> vm.requestStock(100))
+      vendingMachines.filter(_.needRefill(CigarettesPack())).foreach(_.requestStock(100))
       true
     }else
       false
