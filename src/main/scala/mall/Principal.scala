@@ -2,7 +2,7 @@ package mall
 import java.util.UUID.randomUUID
 
 import mall.cigars.City.{Barcelona, CityMapper, Mallorca}
-import mall.cigars.Pack.{Cigarettes, Cigars, PackStock}
+import mall.cigars.Pack.{CigarettesPack, CigarsPack, PackStock}
 import mall.cigars.VendingMachine.{VendingMachine, VendingMachineChain}
 
 object Principal {
@@ -10,7 +10,7 @@ object Principal {
   def main (args: Array[String]):Unit= {
     val packCigarettes = "Cigarettes"
     val packCigars = "Cigars"
-    val stock = Seq(PackStock(Cigars(), 30, 30), PackStock(Cigarettes(),100, 100))
+    val stock = Seq(PackStock(CigarsPack(), 30, 30), PackStock(CigarettesPack(),100, 100))
     val uuid = randomUUID().toString
     val vm1 = VendingMachine("vm1", uuid, stock)
     val (vm2, prod) = vm1.copy(name = "vm2", id = randomUUID().toString).buy(packCigarettes)._1.buy(packCigarettes)
@@ -20,9 +20,9 @@ object Principal {
     val (vm6, prod6) = vm1.copy(name="vm6", id = randomUUID().toString).buy(packCigarettes)
     val (vm7, prod7) = vm1.copy(name="vm7", id = randomUUID().toString).buy(packCigarettes)._1.buy(packCigars)._1.buy(packCigars)
 
-    val mall_1 = VendingMachineChain("super mall", Seq(vm1,vm6,vm4))
-    val mall_2 = VendingMachineChain("mega mall", Seq(vm5,vm2,vm3))
-    val mall_3 = VendingMachineChain("hyper mall", Seq(vm7))
+    val mall_1 = VendingMachineChain("Glories", Seq(vm1,vm6,vm4), jitActivated = true)
+    val mall_2 = VendingMachineChain("Maquinista", Seq(vm5,vm2,vm3))
+    val mall_3 = VendingMachineChain("Diagonal Mar", Seq(vm7))
 
     println(s"some of the bought packs: \n $prod \n $prod3 \n $prod4 \n $prod7 \n $prod5 \n $prod6")
 
@@ -34,6 +34,9 @@ object Principal {
     println(s"find vending machine by UUID from City panel: ${mapper.getMachine(uuid)}")
     println(s"\nProfit from Barcelona:   ${mapper.getTotalProfit(Barcelona)}€")
     println(s"\nProfit from Mallorca:   ${mapper.getTotalProfit(Mallorca)}€")
+
+    checkStockAndRequestIfNeeded(mall_1)
+    checkStockAndRequestIfNeeded(mall_2)
   }
 
   def closeDay(chain: VendingMachineChain): Unit ={
@@ -43,6 +46,11 @@ object Principal {
     println("Fill up machines for Day 2")
     chain.vendingMachines.foreach(m => println(m.fillUp().retrieveProfit()))
     println("\n")
+  }
+
+  def checkStockAndRequestIfNeeded(chain: VendingMachineChain): Unit ={
+    if (!chain.checkStockAndRequestIfNeeded())
+        println(s"JIT is not implemented for this mall (${chain.name})")
   }
 
 

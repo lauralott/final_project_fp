@@ -2,6 +2,7 @@ package mall.cigars.VendingMachine
 
 import mall.Cost
 import mall.cigars.Pack.{Pack, PackStock}
+import mall.cigars.System.VMSystem
 
 case class VendingMachine(name: String, id : String, packsStocks:Seq[PackStock], profit: Cost=0 ) {
 
@@ -21,4 +22,13 @@ case class VendingMachine(name: String, id : String, packsStocks:Seq[PackStock],
   def retrieveProfit() : VendingMachine = {
     this.copy(profit = 0)
   }
+
+  def requestStock(units: Int): Unit ={
+    VMSystem().initProcess(id, units)
+  }
+
+  def needRefill(pack: Pack): Boolean ={
+    packsStocks.filter(_.pack == pack).head.count < 5
+  }
+
 }

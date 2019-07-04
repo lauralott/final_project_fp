@@ -1,9 +1,11 @@
 package mall.cigars.VendingMachine
 
 import mall.Cost
+import mall.cigars.Pack.CigarettesPack
 import mall.utils.SequenceUtils
 
-case class VendingMachineChain(name : String, vendingMachines: Seq[VendingMachine]) {
+case class VendingMachineChain(name : String, vendingMachines: Seq[VendingMachine],
+                               jitActivated: Boolean = false) {
 
   def add(i:VendingMachine):VendingMachineChain = {
     this.copy(vendingMachines=this.vendingMachines :+ i)
@@ -19,4 +21,12 @@ case class VendingMachineChain(name : String, vendingMachines: Seq[VendingMachin
   }
 
   def getMachine(id: String): Option[VendingMachine] = vendingMachines.find(_.id == id)
+
+  def checkStockAndRequestIfNeeded(): Boolean ={
+    if (jitActivated){
+      vendingMachines.foreach(vm => vm.needRefill(CigarettesPack()) -> vm.requestStock(100))
+      true
+    }else
+      false
+  }
 }
